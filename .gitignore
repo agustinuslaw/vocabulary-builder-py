@@ -1,3 +1,6 @@
+# Proprietary dict.cc dictionary
+dict_cc_de_en.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
