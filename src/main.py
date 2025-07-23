@@ -1,18 +1,18 @@
-from sortedcontainers import SortedSet
-import re
 import argparse
 import os
 import sys
-import spacy
-from collections import defaultdict
-import re
-import time
-import queue
-import multiprocessing
 from concurrent.futures import ProcessPoolExecutor
+from collections import deque
+import re
+import spacy
+from sortedcontainers import SortedSet
+
 from src.perf import Stopwatch
 from src.lang.de import separable_prefixes
-
+from src.dict.dictcc import DictCCDict
+from src.dict.argos import ArgosDict
+from src.dict import Dictionary
+from src.dict.multi import CoalesceDict, AppendDict
 
 def read_word_set(file_path):
     """Reads the word exclusion or other wordlist file."""
@@ -31,10 +31,11 @@ def read_word_set(file_path):
 def read_file_extract_lemmas(args):
     """Reads the file and extract lemmas in the text. Separable verbs already combined."""
     file_path = args.input
+    included_pos = tuple(e.strip() for e in args.part_of_speech.split(","))
     with Stopwatch(f"Extraction of '{file_path}'"):
         nlp = spacy.load("de_core_news_sm")
 
-        excludes = load_organize_excluded_lemmas(args)
+        excludes = load_organize_excluded_lemmas(args.exclude, args.organize_excludes)
 
         text_lemmas = SortedSet()
         with open(file_path, "r", encoding="utf-8") as file:
@@ -42,7 +43,7 @@ def read_file_extract_lemmas(args):
                 # ignore comments links and very short lines
                 if line.startswith("#") or line.startswith("https://") or len(line) < 4:
                     continue
-                line_lemmas = extract_lemmas(line, nlp)
+                line_lemmas = extract_de_lemmas(line, nlp, included_pos)
                 text_lemmas.update(line_lemmas)
         print(f"Found {len(text_lemmas)} lemmas in text '{file_path}'")
 
@@ -89,7 +90,7 @@ def parse_args(args=None):
         "-n",
         "--number",
         type=int,
-        default=2,
+        default=3,
         help="how many translation per word from dict.cc dictionary.",
     )
 
@@ -99,25 +100,71 @@ def parse_args(args=None):
 
     parser.add_argument(
         "-d",
-        "--dictionary",
+        "--dictcc-file",
         type=str,
-        default="dict_cc_de_en.txt",
-        help="dictionary for DE_EN from dict.cc",
+        help="dictionary for DE_EN from dict.cc"
+    )
+
+    parser.add_argument(
+        "-m",
+        "--method",
+        type=str,
+        default="coalesce",
+        choices=("dictcc", "argos", "coalesce", "append"),
+        help="method determines the translation method. dict_cc is an offline tabular dictionary, argos is a neural network, serial defaults to dict_cc then argos"
+    )
+
+    parser.add_argument(
+        "-f",
+        "--from-lang",
+        type=str,
+        default="de",
+        help="argostranslate from-language code e.g. 'de'",
+    )
+
+    parser.add_argument(
+        "-t",
+        "--to-lang",
+        type=str,
+        default="en",
+        help="argostranslate to-language code e.g. 'en'",
+    )
+
+    parser.add_argument(
+        "-pos",
+        "--part-of-speech",
+        type=str,
+        default="VERB,NOUN,ADJ,ADV",
+        help="Available: VERB,NOUN,ADJ,ADV,PROPN,AUX,ADP,SYM,NUM",
     )
 
     parsed_args = parser.parse_args(args)
-
-    # Validate file paths
+    
+    # Validate args
+    print(f'Method: {parsed_args.method}')
+    print(f'Input: {parsed_args.input}')
+    print(f'Output: {parsed_args.output}')
+    print(f'POS: {parsed_args.part_of_speech}')
+    
+    validate_exist(parsed_args.dictcc_file, 'Missing dictcc_file')
     validate_path(parsed_args.input)
-    validate_path(parsed_args.dictionary)
+    method = parsed_args.method
+    if method in ("dictcc", "coalesce", "append"):
+        validate_exist(parsed_args.dictcc_file, f'Missing dictcc_file for method {method}')
+        validate_path(parsed_args.dictcc_file)
+        validate_exist(parsed_args.number, f'Missing number for method {method}')
+    if method in ("argos", "coalesce", "append"):
+        validate_exist(parsed_args.from_lang, f'Missing from_lang for method {method}')
+        validate_exist(parsed_args.to_lang, f'Missing to_lang for method {method}')
+
     if parsed_args.exclude != "":
         validate_path(parsed_args.exclude)
 
     return parsed_args
 
 
-def extract_lemmas(sentence, nlp):
-    """Extract lemmas from sentence
+def extract_de_lemmas(sentence, nlp, included_pos):
+    """Extract German (DE) lemmas from sentence
 
     Args:
         sentence (str): Textual sentence
@@ -128,15 +175,25 @@ def extract_lemmas(sentence, nlp):
     tokens = nlp(sentence)
     lemmas = SortedSet()
     separable_tokens = SortedSet()
+    
     for token in tokens:
         token_lemma = token.lemma_.lower()
-        # print("DEBUG token:", token.text, token.lemma_, token.pos_)
-        if token.pos_ in ("VERB", "ADV", "ADJ"):
+        # https://spacy.io/usage/linguistic-features
+        # POS, PROPN, AUX, VERB, ADP, VERB, PROPN, NOUN, ADP, SYM, NUM
+        token_pos = token.pos_
+        # filter part of speech
+        if token_pos not in included_pos:
+            continue
+        # filter words that dont start with unicode char
+        if re.match(r'^[^\d\W].*', token.text) is None:
+            continue
+        if token_pos != "NOUN":
             lemmas.add(token_lemma)
-        elif token.pos_ == "NOUN":
+        elif token_pos == "NOUN":
+            # German specific logic, nouns are capitalized
             lemmas.add(token_lemma.capitalize())
-
-        # Find separable verbs
+        
+        # German specific logic, find separable verbs
         if token.text in separable_prefixes:
             head = token.head
             if head.pos_ == "VERB":
@@ -149,64 +206,34 @@ def extract_lemmas(sentence, nlp):
     return lemmas - separable_tokens
 
 
-def load_dictionary(file_path):
-    """Read dict.cc dictionary for DE-EN
-
-    Args:
-        file_path (sts): File to dict.cc dictionary text
-
-    Returns:
-        dict: dictionary[word] containing list of EN translation
-    """
-    with Stopwatch("Load dictionary"):
-        # dict.cc dictionary structure
-        dictcc_dictionary = defaultdict(list)
-        with open(file_path, "r", encoding="utf-8") as f:
-            for line in f:
-                # remove tags [...]
-                line = re.sub(r"\[([^\]]+)\]", "", line)
-                # Split into: word, translation, pos
-                parts = line.strip().split("\t")
-                if len(parts) < 3:
-                    continue
-
-                word_def = parts[0]
-                translation = parts[1]
-                pos = parts[2]
-                if pos in ("noun", "verb"):
-                    pos = pos[0]
-                if pos != "n":
-                    translation = f"{translation} {pos}."
-
-                # move gender to translation
-                if pos == "n":
-                    # match for noun gender
-                    match = re.match(r"^(.*)\{(\w+)\}", word_def)
-                    if match:
-                        word_def = match.group(1).strip()
-                        gender = match.group(2).strip()
-                        translation = f"{gender}. {translation}"
-
-                dictcc_dictionary[word_def].append(translation)
-    return dictcc_dictionary
-
-
-def load_organize_excluded_lemmas(args):
+def load_organize_excluded_lemmas(exclude_file, flag_organize_excludes):
     """Load excluded lemmas path, may reorganize the exclude file if flagged"""
-    if args.exclude == "":
+    if exclude_file == "":
         return SortedSet()
-    excluded_lemmas = read_word_set(args.exclude)
-    if args.organize_excludes:
-        write_lines_to_file(excluded_lemmas, args.exclude)
-    print(f"Found {len(excluded_lemmas)} excluded lemmas in '{args.exclude}'")
+    excluded_lemmas = read_word_set(exclude_file)
+    if flag_organize_excludes:
+        write_lines_to_file(excluded_lemmas, exclude_file)
+    print(f"Found {len(excluded_lemmas)} excluded lemmas in '{exclude_file}'")
     return excluded_lemmas
 
 
 def validate_path(path):
     """Check the path really exists"""
     if not os.path.isfile(path):
-        print(f"Error! File not found '{path}'")
-        sys.exit(1)
+        raise FileNotFoundError(f"Error! File not found '{path}'")
+
+
+def validate(expr: bool, message: str):
+    """Check expr is true"""
+    if not expr:
+        raise ValueError(message)
+
+
+def validate_exist(value: str, message: str):
+    """Check expr is true"""
+    if not (value is not None or value != ''):
+        raise ValueError(message)
+    
 
 
 def main(args=None):
@@ -214,20 +241,33 @@ def main(args=None):
     args = parse_args(args)
 
     with ProcessPoolExecutor() as executor:
-        # Load dictionary in parallel, slow ~4s
-        future_dict = executor.submit(load_dictionary, args.dictionary)
+        method = args.method
+        
+        future_lemmas = executor.submit(read_file_extract_lemmas, args)
 
-        lemmas = read_file_extract_lemmas(args)
+        futures = []
+        # ordering matters, dict_cc is added first
+        if method in ("dictcc" , "coalesce", "append"):
+            future_dictcc = executor.submit(DictCCDict, args.dictcc_file, args.number)
+            futures.append(future_dictcc)
+        if method in ("argos" , "coalesce", "append"):
+            future_argos = executor.submit(ArgosDict, args.from_lang, args.to_lang)
+            futures.append(future_argos)
+        
+        validate(len(futures) > 0, f"Unsupported dictionary method: {method}")
+        
+        lemmas = future_lemmas.result()
+        if method == "coalesce":
+            # preserve task ordering
+            dictionary: Dictionary = CoalesceDict([f.result() for f in futures])
+        elif method == "append":
+            # preserve task ordering
+            dictionary: Dictionary = AppendDict([f.result() for f in futures])
+        else:
+            dictionary: Dictionary = futures[0].result()
+        
 
-        dictionary = future_dict.result()
-
-    translated = SortedSet(
-        [
-            f"{lemma}: {', '.join(dictionary[lemma][:args.number])}"
-            for lemma in lemmas
-            if lemma in dictionary
-        ]
-    )
+    translated = SortedSet([f"{x}: {dictionary.translate(x)}" for x in lemmas])
 
     # sectioning by initials
     initials = SortedSet(map(lambda x: f"{x[0]} ---- {x[0]} ----", translated))

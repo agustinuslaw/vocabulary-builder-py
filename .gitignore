@@ -1,5 +1,6 @@
-# Proprietary dict.cc dictionary
+# Personal
 dict_cc_de_en.txt
+dictcc/
 excluded.txt
 
 old_venv
