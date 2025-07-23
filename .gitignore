@@ -1,5 +1,6 @@
 # Proprietary dict.cc dictionary
 dict_cc_de_en.txt
+excluded.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
