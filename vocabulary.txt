@@ -1,681 +1,68 @@
 A ---- A ----
-Alter: m. ancient   , m. greybeard 
-Angestellter: m. probationer, m. black-coat worker  
-Angst: f. fear of losing control, f. fear of missing out (on something) <FOMO>
-Anmeldung: f. registration at the place of residence, f. residency registration
-Antwort: f. answer <A>, f. answer to a question
-Anweisung: f. instruction to a bank, f. assignation
-Apartment: n. apartment, n. flat 
-Apartmentgebäude: n. apartment building 
 Arm: m. arm, m. arm of the law
-Art: f. style of doing sth., f. character
 Arzt: m. caregiver , m. doctor
-Aufkleber: m. adhesion label, m. adhesive label
-Aufregung: f. agitation , f. brouhaha
-Aufzugtür: f. elevator door , f. lift door 
-Auge: f. Auge, n. Eye of Providence
-Ausdruck: m. arithmetic expression, m. expression of joy
-Ausgang: m. conjunction, m. ending of the film
-Außenwand: f. exterior wall, f. external wall
-B ---- B ----
-Baby: n. babe  , n. baby
-Bahn: f. course of a river, f. lane
-Bauch: m. abdomen, m. belly
-Bauchmuskel: m. ab (muscle)  , m. abdominal muscle 
-Bereich: m. realm of politics, m. area
-Bestätigung: f. acknowledgement, f. acknowledgment
-Besucher: m. attendant, m. attendee
-Bett: n. bedding, n. bed
-Bettel: m. rubbish, m. junk  
-Bewusstsein: n. appreciation , n. awareness
-Blase: f. blister on the skin, f. blister on a leaf
-Blitz: m. (optical) flash, m. bolt of lightning
-Block: m. miniature sheet, m. portion
-Boden: m. canvas , m. bell deck  
-Bösewicht: m. baddie , m. baddy 
-Bühne: f. band-stand, f. scene
 C ---- C ----
 Chance: f. break , f. chance
-Club: m. club , m. club of (the) millionaires
-D ---- D ----
-Decke: f. cover , f. hide 
-Detail: n. deet  , n. detail
-Ding: n. thing in itself, n. entity
-Du: m. 
-E ---- E ----
-Ehrlichkeit: f. bona fides, f. candidness
-Eifer: m. alacrity, m. application 
-Eile: f. haste, f. hastiness
-Einfrieren: n. blocking, n. draw-stop
-Eltern: pl. folks  , pl. parentals 
-Erinnerung: f. reminiscence of sb./sth., f. childhood memory
-Erlaubnis: f. admission, f. allowance  
-Erwachsene: f. adult female, f. adult 
-Explosion: f. blast, f. burst
 F ---- F ----
-Falle: f. booby trap, f. catch 
-Familie: f. family , f. family Ciconiidae 
-Fehler: m. defect in the machine, m. bad
 Fenster: n. French window, n. inlier
-Ferne: f. (the) yonder , f. distance
-Fernsehsendung: f. telecast, f. television broadcast
-Feuerwehrleute: pl. fire fighters, pl. firefighters
-Film: m. 15 film  , m. video on demand <VOD>
-Finger: m. dactyl, m. digit
-Flut: f. storm (of), f. flood
-Form: f. cast , f. conformation 
-Frage: f. question, f. question from the floor
-Frau: f. Ms. , f. Ms 
-Freund: m. childhood friend, m. friend of the family
-Fähigkeit: f. ability to serve the trade, f. ability to pay one's taxes
 G ---- G ----
-Gebiet: n. area, n. department
-Gebäude: n. bigging    , n. building
-Gedanke: m. idea, m. sentiment 
-Gefühl: n. feeling of hopelessness, n. feeling of alienation
-Gegenteil: n. contrary, n. converse
-Geist: m. brandy, m. spirit of love
 Geräusch: n. falling drop sound , n. gutta cadens murmur
-Geräusche: pl. noises, pl. sounds
-Gerücht: n. bruit  , n. buzz  
-Geschichte: f. history <hist.>, f. human interest story
 Geschicklichkeit: f. ability, f. adroitness
-Geschwindigkeit: f. burn rate, f. celerity
-Gesetz: n. law, n. Sale of Goods Act
 Gesicht: n. face, n. facies
-Gewicht: n. weight <w., wt.>, n. weight of the shipment
 Glied: n. link in a chain, n. member 
-Gott: m. love god, m. god of love 
-Grund: m. motive for doing sth., m. reason for doing sth.
 H ---- H ----
-Haar: f. Haar , n. Coma Berenices <Com> 
-Hals: m. halse , m. fretted neck
-Hand: f. hamsa , f. khamsa 
 Handgelenk: n. carpus , n. wrist
 Haus: n. treasure trove, n. house beside the sea
-Haustier: n. companion animal , n. domestic animal
 Heiler: m. healer, m. leech 
 Heilung: f. healing through meeting, f. botening  
-Held: m. brave man, m. champion 
-Helfer: m. aide, m. assistant
-Herz: n. heart of gold, n. flinty heart
-Hoffnung: f. hope (for), f. esperance  
-I ---- I ----
-Information: f. information (on / about), f. information on demand
-J ---- J ----
-Job: m. job for life, m. job
-Junge: m. neighborhood boy , m. city boy
 K ---- K ----
-Kampf: m. death-feud, m. life-and-death struggle
-Karriere: f. (full) gallop, f. career in consulting
 Katastrophe: f. calamity, f. cataclysm
-Kind: n. child at the breast, n. army brat 
-Kinderkrankenhaus: n. children's hospital
-Kirche: f. Church of All Nations, f. autum    
-Kissen: n. bolster, n. cushion
-Klasse: f. class <cl.>, f. class in itself
-Klassifizierung: f. classification, f. occupational classification
-Klatsch: m. buzz , m. chat
-Kleidung: f. apparel  , f. array 
-Kletterwand: f. climbing wall
 Klingel: f. bell 
-Klingeln: n. ringing in the ear , n. ringing in the ears 
-Knie: n. knee , n. elbow
-Kommunikation: f. communicating, f. communication
 Konsol: m. consol
-Kontrolle: f. external border control, f. audit
-Kopf: m. Medusa's head, m. head of routine
-Kraft: f. Lust  , f. Strength <XI, VIII>  
-Krankenhaus: n. clinic , n. Barmherzigen Brüder Hospital 
 Krankenhausbett: n. hospital bed, n. hospital cot
-Käsegebäck: n. cheese biscuits {pl}, n. cheese crackers {pl}
-Körper: m. bod  , m. corpus
-L ---- L ----
-Leben: n. activity, n. animation
-Lebewesen: n. being , n. creature
-Lehrerin: f. female teacher, f. PE mistress 
-Leiche: f. body , f. cadaver
-Leid: n. affliction, n. anguish
-Leute: pl. people from all strata of society, pl. people of all ranks
-Lichter: pl. lights, pl. eyes 
-Lippe: f. labium, f. lip 
-Lächeln: n. smile, pl. smiles
-Lärm: m. ado, m. bobbery
-M ---- M ----
-Macht: f. power (of), f. authority
-Magie: f. magic, f. theurgy
-Mal: n. (baseball) base, n. goal 
-Mann: m. man with a wandering eye, m. man of eloquence
-Menge: f. amount of carbon dioxide, f. aggregate
-Mensch: m. (modern) human , m. lucky person
-Metall: n. metal from the group of rare earths, n. metal
-Metallteil: n. metal part
-Minute: f. minute <min, min.>
-Mitleid: n. commiseration, n. compassionateness
-Mitte: f. middle of April, f. center 
-Moment: m. epiphany moment, m. moment of abstraction
-Monat: m. month of April, m. month of August
-Motorradjacke: f. biker jacket
-Muss: n. must, n. necessity
-N ---- N ----
-Nachricht: f. communication, f. information
-Nacht: f. night of celebrating, f. Night of the Long Knives
-Name: m. name at birth, m. name of wife
-Narbe: f. scar on one's forehead, f. cicatrice
-Nashville: n. Nashville
-Nervosität: f. edginess, f. flurry
-Notdienst: m. emergency service, m. emergency services {pl}
-Notfälle: pl. emergencies
-Notiz: f. billet   , f. jotting
 O ---- O ----
-Offenheit: f. artlessness, f. candidness
 Ohr: n. earhole  , n. ear
-Ohrhörer: m. earphone, pl. earbuds
-Okay: n. okay, n. OK 
-Option: f. at-the-money option, f. equity kicker
-Ordnung: f. adjustment, f. alignment
 P ---- P ----
-Paar: f. Paar (River), n. brace
-Party: f. fete, f. fête
-Passieren: n. straining, n. passing 
-Pause: f. blank, f. break 
 Piepen: n. squeak, pl. dough {sg}  
-Platz: m. place <Pl.>, m. square <Sq.>
-Polizist: m. arresting officer, m. beat constable
-Puls: m. pulse at rest, m. pulse
-Q ---- Q ----
-Quale: n. quale 
-Quelle: f. root (of all evil), f. authority
 R ---- R ----
-Raum: m. room of silence, m. Room of Requirement 
-Reaktion: f. reaction towards optic and acoustic stimuli, f. stock exchange reaction
-Realität: f. fact, f. reality
-Reden: n. discoursing, n. speaking
-Regel: f. canon, f. absolute priority rule
 Regen: m. liquid sunshine  , m. rain
-Rest: m. balance , m. carryover
 Rinnsale: pl. rivulets, pl. runlets
-Ripp: n. shrew  
-Rolle: f. role as principal advisor, f. bundle of banknotes
-Rücken: m. back, m. dorsum
 S ---- S ----
-Sache: f. matter of life and death, f. case 
-Sammlerstück: n. collectable, n. collectible
-Schatz: m. storehouse of information, m. store of information
 Scheibe: f. bit-slice, f. slice of bread
-Schimmer: m. blink, m. moonglimmer
-Schlafzimmer: n. bed-chamber, n. bed-room
-Schlag: m. attack, m. slap on the wrist
-Schluchzen: n. sobbing, n. sob
-Schmerz: m. ache, m. achiness
 Schoß: f. skirt, m. bosom of the family
-Schuld: f. game debt, f. gambling debt
-Schule: f. university of life, f. blind and dumb school
-Schulter: f. scapular, f. shoulder
-Schweigen: n. hush , n. silence
-Schwester: f. sister in Christ, f. sister in Christ
-Schwung: m. bounce, m. brio
-Seite: f. page <p.>, f. beam
-Sekunde: f. second <s, sec.>, f. tick   
-Shirt: n. shirt
-Sicherheit: f. industrial safety, f. job safety
-Sicht: f. way of looking at things, f. rear visibility
-Sidekick: m. sidekick  
-Sinn: m. feeling (for sth.), m. spirit of the law
-Situation: f. no-win situation, f. no-win situation
-Spezifikation: f. requirements document, f. specification
-Spiegelbild: n. mirror image, n. mirror
 Spiel: n. acting, n. running out the clock
-Sporthalle: f. coliseum, f. gymnasium
-Spott: m. derision, m. derisiveness
-Stadt: f. seaside community, f. lakeside town
-Stift: m. aglet, m. gib
-Stock: m. cane , m. stock
-Straße: f. avenue <Ave.>, f. Drive <Dr.>
-Stuhl: m. chair, m. currant jelly stool
-Stärke: f. amylum, f. caliper
-Stück: n. play running at the theatre , n. piece <pc.>
-Super: n. premium , n. super
-Superheldin: f. superheroine
-System: n. system undergoing testing, n. Rachmanism
-T ---- T ----
-Tablett: n. dinner tray, n. meal tray
-Tag: m. bad hair day  , m. red-letter day 
-Tante: f. first cousin once removed , f. aunty / auntie Anna 
-Tasche: f. baag , f. bag
-Taschenlampe: f. battery torch , f. electric torch 
-Teenager: m. adolescent, m. teen-ager  
-Teil: m. share of the burden, m. section of the population
-Todesangst: f. deadly terror, f. fear of death
-Trauma: n. trauma
-Treffer: m. stoppage-time goal , m. spare 
-Träne: f. tear of regret, f. teardrop
-Typ: m. character, m. form of financing
-Tür: f. door, f. screen door
-U ---- U ----
-Unfall: m. accident caused by an explosion, m. accident
-V ---- V ----
-Van: m. multi-purpose vehicle <MPV>, m. van
-Variation: f. variation (on), f. variation on the same theme
-Vater: m. Father of All Bombs  <FOAB> , m. begetter
-Vermutung: f. assumption, f. conjecture
-Versammlung: f. assemblage , f. assembly
-Vitalität: f. animal spirits {pl}, f. vibrance
-Vorfall: m. vaginal vault prolapse, m. episode
 W ---- W ----
-Wahrheit: f. truth of a statement, f. genuine truth
-Warnung: f. caution notice, f. admonition
-Warten: n. waiting, n. wait
-Weise: f. air, f. fashion 
-Winkel: m. angle, m. bracket
 Woche: f. se'nnight  , f. sennight 
-Wohngebiet: n. housing area, n. housing estate 
-Wort: n. word of Latin derivation, n. word of Latin origin
-Z ---- Z ----
-Zauber: m. attraction, m. conjuration
-Zeit: f. toss-it time, f. non-callable period
-Zentimeter: m. centimeter of mercury <cm Hg, cmHg> , m. centimetre of mercury <cm Hg, cmHg> 
-Zentrale: f. base, f. center 
-Ziel: n. ambition , n. aspiration
-Zimmer: n. room (number) , n. apartment
-Zivilist: m. civilian, m. civvy 
-Zone: f. area, f. belt 
-Zuhause: n. crib  , n. home
-Zuschauer: m. audience member, m. looker-on
-Zöpfe: pl. bunches  , pl. pigtails 
 a ---- a ----
-abhalten: to detain v., to deter v.
-allein: alone adj adv., by itself adj adv.
-also: and so adv conj.
-alt: aged adj., anciently adv.
-anfangen: to become v., to begin v.
-angreifen: to aggress v., to charge v.
-anhalten: to block v., to call to a halt v.
-ankommen: to appear v., to arrive v.
-anstarren: to gaze v.
-arbeiten: to act  v., to carry on a job v.
-arm: beggarly adj adv., impecunious adj.
 auch: also adv., as well adv.
-auffallen: to attract attention v., to be apparent v.
-aufgerissen: lacerated adj past-p., torn open adj past-p.
-aufhören: to break off v., to break up v.
-aufleben: to revive v.
 aufliegen: to abut v., to be laid up v.
-aufrecht: endwise adv., erect adj.
-aufregen: to agitate v., to brisk up v.
-aufsteigen: to arise v., to ascend v.
-aufwühlen: to stir up v.
-ausfallen: to be cancelled  v., to become inoperative v.
-ausgewichen: evaded adj past-p.
-aushalten: to abide v., to bear up v.
 ausschalten: to close  v., to deactivate v.
-ausschließlich: excessive adj., exclusively adv.
-aussehen: to look  v.
-aussenden: to beam  v., to cast forth v.
-auswählen: to choose v., to cull v.
-automatisch: automated adj., automatic adj.
 b ---- b ----
-bedeuten: to bode v., to connote v.
-beginnen: to begin v., to commence v.
-behalten: held  adj past-p., kept adj past-p.
-behandeln: to deal v.
-beigeben: to add v., to adjoin v.
 bekommen: gotten  past-p., got   past-p.
-bemerken: to annotate v., to comment v.
-benachbart: adjacent adj., adjacent to prep.
 beobachten: to monitor v., to notice v.
-beruhigend: anodyne   adj., appeasing adj.
-beschädigen: to damage v., to harm v.
-beschäftigen: to exercise  v.
-beschützen: to guard v., to patronise  v.
-besiegen: to bowl over v., to conquer v.
-besonders: characteristically adv., eminently adv.
-besorgt: afraid adj., anxious adj.
-besuchen: to call on v., to call  v.
-beängstigend: alarming adj pres-p., alarmingly adv.
-bleiben: to abide  v., to continue  v.
-blinkend: flashing adj pres-p.
-blutig: bleeding adj., bloodily adv.
-brauchen: to spend v.
-braun: broon   adj., brown adj.
-brennend: ardent adj., blazing adj pres-p.
-bringen: to convey v., to feature  v.
-böse: badly adv., bad  adj.
 d ---- d ----
-damals: at that time adv., at the time adv.
 damit: for this reason adv., hence adv.
-dann: next adv., then adv.
-daran: at it adv., thereon adv.
-daraus: hence adv., out of it adv.
-darin: in it adv., therein adv.
 darüber: about it / that adv., above  adv.
-dauern: to last v., to take  v.
-davon: of this adv., therefrom   adv.
-dazu: as well adv., in addition (to that) adv.
-dein: thine  pron., thy   pron.
-denken: to figure    v., to think v.
-detailliert: blow-by-blow   adj., detailed adj past-p.
-diesmal: this time adv.
-direkt: direct adj., directly adv.
-dort: thar   adv., there adv.
-dorthin: there  adv., thitherward  adv.
-draußen: abroad    adv., a door  adv.
-dreieckig: three-cornered adj., triangular adj.
-dreimal: thrice   adv., triply adv.
-dunkel: abstruse adj., black adj.
-dunkellila: dark purple adj.
-durchatmen: to catch a breath v., to catch one's breath  v.
-durchbohrt: penetrated adj past-p., pierced adj past-p.
-durchfliegen: to fly through v.
-durchgehen: to go through  v., to pass v.
-durchkommen: to come through v., to get through v.
-durchsagen: to announce v.
-durchsehen: to examine v., to look over v.
-dünn: cardboard    adj., flimsily adv.
-e ---- e ----
-echt: authentic adj., bona fide adj.
-eigen: distinctive adj., own adj.
-einfach: barely    adv., elementary adj.
-einmal: once adv., onct  adv.
-einsetzen: to bring into action v., to bring into operation v.
-einstürzen: to collide v., to come down  v.
-einzigartig: exceptional adj., inimitable adj.
-endlich: already   adv., at last adv.
-entfernen: to clear away v., to clear  v.
-entfernt: aloof adv., apart  adv.
-entschuldigend: apologetically adv., apologetical  adj.
-entstehen: to accrue v., to be formed v.
-erhaben: convex adj., convexly adv.
-erhalten: extant   adj., obtained adj past-p.
-erkennen: to identify v., to ken  v.
-erklären: to give an account of v., to meld v.
-erleichtern: to alleviate v., to assuage v.
-ernst: earnest adj., earnestly adv.
-erstarren: to congeal v., to consolidate v.
-erster: first <1st>  adj.
-erzählen: to narrate v., to talk v.
-etwas: a bit adv., a little  adv.
-extra: apart adv., extra adj adv.
-extrem: crazy    adv., desperate   adj.
-f ---- f ----
-fair: decent adj., equitable adj.
-fallen: to be killed v., to drop  v.
-falsch: ersatz   adj., false adj.
-fast: all but   adv., almost adv.
-fertig: all right adv adj., premade adj.
-fortfahren: to go ahead  v., to keep going v.
-fragen: to ask v., to frain    v.
-fremd: alien adj., external adj.
-früh: early adj adv., soon  adv.
-funktionieren: to act v., to be functioning v.
 g ---- g ----
-ganz: all of prep., entirely adv.
 geben: to allow  v., to deal v.
 gebrochen: broken adj past-p., brokenly adv.
-geduldig: acquiescent adj., forbearing adj.
-gefangen: captive adj., captured adj past-p.
-gefährlich: adventurous  adj., alias   adj.
-geheilt: cured adj past-p., healed adj past-p.
-geheim: acroamatic adj., arcane adj.
-gehen: to ambulate   v., to fare   v.
 gelegentlich: at odd times adv., at times adv.
-genau: accurately adv., accurate  adj.
-genauso: all the same adv., as adv.
-genug: adequate adj., enough adj adv.
-gerade: direct adj., directly adv.
-gerne: fain  adv., gladly adv.
-gesamt: aggregate adj., collected adj.
-geschlossen: behind-closed-doors adj., close adj.
-gewusst: kenned  past-p., kent  past-p.
-glauben: to credit  v., to trow   v.
 gleich: alike adj adv., at par adv.
-gleichzeitig: at once   adv., at the same time adv.
-groß: ample adj., big adj.
-großartig: admirable adj., awesome   adj.
-grün: green adj., tart   adj.
 gut: all right adj adv., bitching   adj.
 h ---- h ----
-halten: to save  v.
-handgemacht: crafted adj past-p., hand-crafted adj.
 hauptsächlich: basically   adv., cardinal adj.
-heftig: acute adj., boisterous adj.
 heilend: curative adj., curatively adv.
-heißen: to be called v.
-hereinkommen: to come in v., to enter  v.
-herumfliegen: to fly about v., to fly around v.
-herumliegen: to be lying around v., to lie about v.
-heute: nowadays adv., this day adv.
-hier: here adv., herein adv.
-hierher: here adv., hither adv.
-hindurch: through adv., throughout adv prep.
-hineinlegen: to put in v.
-hingegangen: gone there past-p.
-hinsetzen: to sit down v.
 hoch: high-minded   adj., high adj adv.
-hochgehen: to bristle v.
-hochklettern: to climb v.
-hochziehen: to hike up v., to hoist v.
-hoffen: to hope v., to trust  v.
-hören: to get to know v., to hearken  v.
-i ---- i ----
-ignorieren: to brush aside v.
-immer: all along adv., always adv.
-interessant: absorbing adj., attractive adj.
-irgendwann: any time adv., anytime adv.
-isoliert: covered adj past-p., in isolation  adj adv.
-j ---- j ----
-ja: aye-aye adv., certainly adv.
-jedenfalls: anyhow adv., anyway adv.
-jetzt: at the moment adv., currently adv.
-k ---- k ----
-kaum: barely adv., hardly adv.
-klar: bright  adj., clear adj.
-klein: beenie   adj., diddy   adj.
-klingen: to chime v., to chink v.
-klingend: chinking adj., clinking adj.
-komisch: comically adv., freaky   adj.
-kommen: to come v., to grow in  v.
-komplett: clean   adv., clean  adj.
-kompliziert: complex adj., complicated adj past-p.
-konzentrieren: to bring into focus v., to concentrate v.
-kürzlich: lately adv., latewards   adv.
-l ---- l ----
-lang: lang   adj adv., lathy  adj.
-lange: a long time adv., at length  adv.
-lassen: to let v.
-laut: aloud adv., blustering adj.
-leer: blankly adv., blank  adj.
-leicht: airy adj., cushy adj.
-leid: sorry adv.
-leise: faint adj., gentle adj.
-leisten: to achieve v., to carry out (successfully)  v.
-liegen: to be recumbent v., to lay   v.
-lila: lilac adj., purple adj.
-lustig: amusing adj., amusingly adv.
-lügnerisch: lying adj., mendacious adj.
-m ---- m ----
-manchmal: at times adv., betimes   adv.
-mehr: further adv., mair  adv.
-meinen: to allude v., to deem v.
-mental: mental adj.
-merken: to bookmark v., to notice v.
-mitbringen: to bring along v., to bring v.
-mitkämpfen: to take part in the combat v.
-mitreden: to have a say v., to join in v.
-mächtig: forceful adj., hefty adj.
-möglich: contingent adj., eventual   adj.
-n ---- n ----
-nachdenken: to cogitate  v., to contemplate v.
-nachgeben: to acquiesce v., to back down  v.
-nachsehen: to have a look-see  v., to peek v.
-nachts: at night-time adv., at night adv.
-nass: drenched adj., sloppy   adj.
-natürlich: artlessly adv., au naturel adj adv.
-nervös: edgy adj., flustered adj.
-nett: bonny adj., comely adj adv.
-neu: anew adv., new adj.
-neugierig: curiously adv., curious  adj.
-nicht: no adv., not adv.
-nicken: to bow  v., to nod v.
-nie: at no time adv., nary   adv.
-niemals: ne'er   adv., never adv.
-noch: as yet adv., nor conj.
-normal: normal adj., normally  adv.
-normalerweise: as a rule adv., customarily adv.
-nun: at the moment adv., now adv.
-nur: as little as adv., but  adv.
-nähren: to aliment v., to foster v.
 o ---- o ----
-offen: apertured adj., artless adj.
 oft: a lot of times adv., frequently adv.
 p ---- p ----
-packen: to clutch v., to grapple v.
-passen: to be suitable v., to make no bid v.
 pausieren: to be doing nothing v., to have a break v.
-perfekt: consummate adj., hotsy-totsy      adj.
-physisch: corporal adj., corporeal adj.
-plötzlich: abrupt adj., abruptly adv.
-protestieren: to expostulate v., to object v.
-r ---- r ----
-rasen: to barrel (along)   v., to belt along  v.
-reden: to argue v., to discourse v.
-retten: to manage to keep v., to manage to preserve v.
-richtend: judgmental adj.
-richtig: accurately  adv., accurate  adj.
-riesig: cavernous   adj., colossal adj.
-rufen: to call v., to clamour  v.
 s ---- s ----
 sagen: to be like   v., to go   v.
-salutieren: to salute v.
-schaffen: to get  v.
-scheinen: to glisten v., to shine   v.
-schenken: to bestow v., to donate v.
-schicken: to despatch  v., to dispatch v.
-schief: agley  adj., askance adv.
-schiefgegangen: gone wrong past-p.
-schlecht: bad adj., badly adv.
-schleudern: to catapult v., to chuck v.
-schließlich: after all adv., at last adv.
-schlimm: bad adj., dire adj.
-schlucken: to gulp v.
-schmerzen: to ache v., to ail v.
-schnell: apace adv., at speed adv.
-schon: already adv., as early as adv.
-schrecklich: abominable adj., appalling adj.
-schreiben: to ink  v., to inscribe v.
-schreien: to bawl v., to clamor  v.
-schwer: grievous  adj., weighty adj.
-schön: aesthetic adj., beauteously adv.
-schütteln: to concuss v., to rattle  v.
-schüttelnd: joggling adj., shaking adj.
-sehen: to behold v., to look v.
 sehr: a lot  adv., badly  adv.
-selbst: herself pron., himself pron.
-selten: few and far between  adj., infrequently adv.
-seltsam: baroque adj., bizarre adj.
-setzen: to bed v., to bet v.
-seufzen: to groan v., to sigh v.
-sicher: assuredly adv., certain adj.
-silbern: argentine adj., argent   adj.
-so: as adv., for example adv.
-sodass: so that conj., with the result that conj.
-sofort: all at once adv., at a moment's notice adv.
 spielen: to enact  v., to execute v.
 spät: lag   adj., late adj adv.
-stabil: resilient adj., robust adj.
-stabilisieren: to stabilise  v., to stabilize v.
-stark: badly adv., but good  adv.
-stecken: to plunge  v., to put v.
-stehen: to be stood   v., to stand v.
-sterben: to bite the dust    v., to decease  v.
-still: calm adj., inactive adj.
-stimmen: to add up v., to attune v.
-stolz: conceited adj., lofty adj.
-strahlend: aglow adj., beaming adj pres-p.
-stürmen: to bounce v., to charge v.
-t ---- t ----
-tatsächlich: actual adj., actually adv.
-tief: abyssal adj., cavernously adv.
-tot: dead adj., deceased adj.
-trocken: aridly adv., drily adv.
-tröstend: comforting adj pres-p., comfortingly adv.
-tun: to do v.
-tödlich: baneful adj., deadly adj adv.
-töten: to destroy  v., to dispatch  v.
-u ---- u ----
-umbauen: to rebuild v., to reconstruct v.
-umdrehen: to invert v., to reverse v.
-umwickeln: to lag  v., to obvolve   v.
-unbedingt: absolute adj., absolutely adv.
-unerwartet: abruptly adv., against expectation adv.
-ungewöhnlich: abnormal adj., abnormally adv.
-unglaublich: beyond belief  adj adv., elusive adj.
-unsichtbar: hidden adj., indiscernible adj.
-unten: alow adv., at the bottom adv.
-unterbrechen: to break off v., to break up v.
-unwohl: off-colour     adj., qualmish adj.
 v ---- v ----
-verbringen: to spend v.
-verdrehen: to contort v., to distort v.
-vergessen: forgotten adj past-p., to obliviate   v.
-verletzen: to bless   v., to bruise v.
-verlieren: to go and lose  v., to lose the day v.
-verrückt: bedlam adj., bedlamic adj.
-verschieden: differently adv., distinctly adv.
 verschwinden: to abscond v., to bail out (of)   v.
-versorgen: to furnish v., to provide v.
-versprechen: to give one's word v., to make a pledge v.
-verstehen: to appreciate  v., to apprehend v.
-versuchen: to assay   v., to attempt v.
-verteilen: to allocate v., to allot v.
-vertraut: acquainted adj past-p., conversant adj.
 verziehen: condoned adj past-p., excused adj past-p.
 vielleicht: belike  adv., by any chance adv.
-voll: full adj., full up adj.
-vorbei: by adv., past adj adv.
-vorfallen: to herniate v., to prolapse v.
-vorgehen: to advance v., to be fast  v.
-vorsichtig: cagey   adj., canny adj.
-vorverlegen: to antedate v., to bring forward v.
-w ---- w ----
-wach: alert adj., alertly adv.
-wahrscheinlich: belike  adv., likely   adj.
-warten: to attend  v., to await v.
-warum: forwhy   adv., why adv.
-weg: away adv., gone adj.
-weh: sore   adj.
-wehtun: to ache v., to be sore v.
-weiterstudieren: to continue studying v.
-weißen: to chalk  v., to whiten v.
-wichtig: big adj., great adj.
-wie: as prep conj., how adv.
-wieder: afresh adv., again adv.
-wirken: to bite   v., to function v.
-wirklich: active adj., actual adj.
-wissen: to be aware of v., to ken  v.
-wo: where  adv.
-woanders: elsewhere adv., somewhere else adv.
-wohl: arguably  adv., doubtless   adv.
-wollen: to will   v., woolly adj.
-wütend: aboil adj adv., agro       adj.
-z ---- z ----
-zerstören: to annihilate v., to blight v.
-zerstört: deleted adj past-p., demolished adj past-p.
-zielen: to aim v., to home  v.
-ziemlich: considerable adj., fairly adv.
-zubinden: to tie up v.
-zuhalten: to keep shut v.
-zulassen: to accredit v., to approve v.
-zumindest: at a minimum adv., at any rate    adv.
-zurechtkommen: to get along v., to get by  v.
-zureden: to blandish v.
-zurückfallen: to backdrop v., to backslide v.
-zurückhalten: to dam up v., to detain v.
-zusagen: to answer in the affirmative v., to approve v.
-zusammen: altogether adv., jointly adv.
-zusammenschließen: to affiliate v., to combine v.
-zusehen: to see  v.
-zuvor: aforetime   adv., afore   adv.
-zählen: to belong to v., to checkoff v.
-ö ---- ö ----
-öffentlich: official adj., openly adv.

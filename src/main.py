@@ -10,97 +10,8 @@ import time
 import queue
 import multiprocessing
 from concurrent.futures import ProcessPoolExecutor
-
-
-class Stopwatch:
-    """This class measures elapsed time from enter to exit in seconds"""
-
-    def __init__(self, name="Process"):
-        self.name = name
-        self.start = None
-        self.end = None
-        self.elapsed = None
-
-    def __enter__(self):
-        # print(self.name)
-        self.start = time.perf_counter()
-        return self
-
-    def __exit__(self, *args):
-        self.end = time.perf_counter()
-        self.elapsed = self.end - self.start
-        print(f"{self.name} elapsed: {self.elapsed:.2f} seconds")
-
-
-# https://germanstudiesdepartmenaluser.host.dartmouth.edu/Wortbildung/Separables.html
-separable_prefixes = [
-    "ab",
-    "an",
-    "auf",
-    "aus",
-    "auseinander",
-    "bei",
-    "da",
-    "dabei",
-    "dar",
-    "daran",
-    "dazwischen",
-    "durch",
-    "ein",
-    "empor",
-    "entgegen",
-    "entlang",
-    "entzwei",
-    "fehl",
-    "fern",
-    "fest",
-    "fort",
-    "frei",
-    "gegenüber",
-    "gleich",
-    "heim",
-    "her",
-    "herab",
-    "heran",
-    "herauf",
-    "heraus",
-    "herbei",
-    "herein",
-    "herüber",
-    "herum",
-    "herunter",
-    "hervor",
-    "hin",
-    "hinab",
-    "hinauf",
-    "hinaus",
-    "hinein",
-    "hinterher",
-    "hinunter",
-    "hinweg",
-    "hinzu",
-    "hoch",
-    "los",
-    "mit",
-    "nach",
-    "nebenher",
-    "nieder",
-    "statt",
-    "um",
-    "vor",
-    "voran",
-    "voraus",
-    "vorbei",
-    "vorüber",
-    "vorweg",
-    "weg",
-    "weiter",
-    "wieder",
-    "zu",
-    "zurecht",
-    "zurück",
-    "zusammen",
-]
+from src.perf import Stopwatch
+from src.lang.de import separable_prefixes
 
 
 def read_word_set(file_path):
@@ -159,7 +70,11 @@ def parse_args(args=None):
     parser.add_argument("-i", "--input", type=str, help="path to input text file.")
 
     parser.add_argument(
-        "-o", "--output", type=str, default="vocabulary.txt", help="path to output text file."
+        "-o",
+        "--output",
+        type=str,
+        default="vocabulary.txt",
+        help="path to output text file.",
     )
 
     parser.add_argument(
@@ -171,7 +86,11 @@ def parse_args(args=None):
     )
 
     parser.add_argument(
-        "-n", "--number", type=int, default=2, help="how many translation per word from dict.cc dictionary."
+        "-n",
+        "--number",
+        type=int,
+        default=2,
+        help="how many translation per word from dict.cc dictionary.",
     )
 
     parser.add_argument(
@@ -290,7 +209,7 @@ def validate_path(path):
         sys.exit(1)
 
 
-def main(args = None):
+def main(args=None):
     """Main function, accepts CLI args"""
     args = parse_args(args)
 
@@ -304,7 +223,7 @@ def main(args = None):
 
     translated = SortedSet(
         [
-            f"{lemma}: {", ".join(dictionary[lemma][:args.number])}"
+            f"{lemma}: {', '.join(dictionary[lemma][:args.number])}"
             for lemma in lemmas
             if lemma in dictionary
         ]

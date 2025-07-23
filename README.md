@@ -4,14 +4,15 @@ From a text file generate a vocabulary list. If translation is possible, then th
 
 ## Requires
 
-- Python 3.13+
+- Python 3.11.9 
+  - Due to sentencepie==2.0.0 
 - Dictionary downloaded from dict.cc (see https://www1.dict.cc/translation_file_request.php?l=e)
 
 ## Setup Windows
 
 ```
 cd {root project}
-python -m venv venv
+py -3.11.9 -m venv venv
 venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
@@ -20,7 +21,7 @@ pip install -r requirements.txt
 
 ```
 cd {root project}
-python -m venv venv
+py -3.11.9 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -34,7 +35,7 @@ Examples below in Powershell.
 
 To get help use `--help`.
 ```powershell
-(venv) PS workspace\vocabulary-builder-py> py src\main.py -h
+(venv) PS workspace\vocabulary-builder-py> py -m src.main -h
 usage: VocabularyBuilder [-h] [-i INPUT] [-o OUTPUT] [-e EXCLUDE] [-n NUMBER] [--organize-excludes | --no-organize-excludes] [-d DICTIONARY]
 
 Process German text files to get vocabulary list. Requires offline dict.cc dictionary text. See
@@ -54,7 +55,7 @@ options:
 
 Example usage with excludes
 ```powershell
-(venv) PS workspace\vocabulary-builder-py> py src\main.py -d dict_cc_de_en.txt -i german_novel_ch2.txt -o vocabulary.txt -e excludes.txt
+(venv) PS workspace\vocabulary-builder-py> py -m src.main -d dict_cc_de_en.txt -i german_novel_ch2.txt -o vocabulary.txt -e excludes.txt
 Found 539 excluded lemmas in 'excludes.txt'
 Found 890 lemmas in text 'german_novel_ch2.txt'
 Extraction of 'german_novel_ch2.txt' elapsed: 2.33 seconds
@@ -76,5 +77,5 @@ Write translated lemmas 'vocabulary.txt' with size: 634
 
 Go to root project and run `test.test_main`
 ```powershell
-(venv) PS workspace\vocabulary-builder-py> python -m unittest test.test_main
+(venv) PS workspace\vocabulary-builder-py> py -m unittest test.test_main
 ```

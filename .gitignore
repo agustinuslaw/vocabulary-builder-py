@@ -2,6 +2,8 @@
 dict_cc_de_en.txt
 excluded.txt
 
+old_venv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
