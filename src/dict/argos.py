@@ -9,6 +9,7 @@ class ArgosDict(Dictionary):
     def __init__(self, from_lang: str, to_lang: str):
         self.from_lang = from_lang
         self.to_lang = to_lang
+        self.cache = {}
         self.install(from_lang, to_lang)
 
     def install(self, from_lang: str, to_lang: str):
@@ -28,6 +29,9 @@ class ArgosDict(Dictionary):
 
     def translate(self, text):
         """Translate text"""
+        cached = self.cache.get(text)
+        if cached:
+            return cached
         return argostranslate.translate.translate(text, self.from_lang, self.to_lang).strip()
 
 

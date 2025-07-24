@@ -237,7 +237,7 @@ def main(args=None):
     """Main function, accepts CLI args"""
     args = parse_args(args)
 
-    with ProcessPoolExecutor() as executor:
+    with ProcessPoolExecutor(4) as executor:
         method = args.method
         
         # future_lemmas = executor.submit(read_file_extract_lemmas, args)
@@ -263,12 +263,16 @@ def main(args=None):
         else:
             dictionary: Dictionary = futures[0].result()
     
-    print("Begin translation")
     with Stopwatch("Translation"):
-        translated = SortedSet([f"{x}: {dictionary.translate(x)}" for x in lemmas])
+        translated = SortedSet()
+        for lemma in lemmas:
+            translated_lemma = dictionary.translate(lemma)
+            if translated_lemma is not None:
+                line = f"{lemma}: {translated_lemma}"
+                translated.add(line)
 
     # sectioning by initials
-    initials = SortedSet(map(lambda x: f"{x[0]} ---- {x[0]} ----", translated))
+    initials = SortedSet(map(lambda x: f"{x[0]} --- {x[0]} --- {x[0]}", translated))
     sectioned = SortedSet(translated)
     sectioned.update(initials)
 
@@ -277,4 +281,5 @@ def main(args=None):
 
 
 if __name__ == "__main__":
-    main()
+    with Stopwatch("Main"):
+        main()

@@ -82,7 +82,7 @@ class TestMain(unittest.TestCase):
         # Should be excluded
         self.assertFalse("Konsol" in content)
         self.assertFalse("vielleicht" in content)
-        os.remove(output)
+        # os.remove(output)
 
     def test_create_vocab_argos(self):
         """Test main creates vocab file with the right content"""

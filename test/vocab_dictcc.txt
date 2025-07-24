@@ -1,0 +1,43 @@
+A --- A --- A
+Arm: m arm
+Arzt: m caregiver, doctor, doctor of medicine <M.D., MD>
+C --- C --- C
+Chance: f break, chance, opportunity
+F --- F --- F
+Fenster: n inlier, screen window, window
+O --- O --- O
+Ohr: n earhole, ear, lug
+P --- P --- P
+Piepen: n squeak
+R --- R --- R
+Regen: m liquid sunshine, rain
+Rinnsale: pl rivulets, runlets, runnels
+S --- S --- S
+Scheibe: f bit-slice, dial, disc
+Schoß: m lap
+Spiel: n acting, dalliance, fixture
+W --- W --- W
+Woche: f se'nnight, sennight, sevennight
+a --- a --- a
+ablenken: to abstract, to avert, to deflect
+auch: also, as well, eke
+b --- b --- b
+bekommen: gotten, got, to acquire
+beobachten: to monitor, to notice, to scout
+d --- d --- d
+damit: for this reason, hence, in order that
+darüber: about it / that, above, overhead
+e --- e --- e
+erhalten: extant, obtained, preserved
+h --- h --- h
+hauptsächlich: basically, cardinal, central
+heilend: curative, curatively, curing
+hoch: high-minded, high, highly
+l --- l --- l
+liegen: to be recumbent, to lay, to lie
+o --- o --- o
+oft: a lot of times, frequently, many times
+p --- p --- p
+pausieren: to be doing nothing, to have a break, to mark time
+s --- s --- s
+schalten: to change gear, to control, to switch
