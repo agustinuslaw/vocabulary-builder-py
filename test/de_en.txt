@@ -1,0 +1,31 @@
+# Sample from dict.cc for testing
+Arzt im Zwielicht [Fernsehtitel auch: Arzt im Fegefeuer]	Battle Circus [Richard Brooks]		[F] [film] 
+Arzt und Dämon	Dr. Jekyll and Mr. Hyde [Victor Fleming, 1941]		[F] [film] 
+Arzt {m}	caregiver [doctor]	noun	
+Arzt {m}	doctor	noun	[jobs] [med.] 
+Arzt {m}	doctor of medicine <M.D., MD>	noun	[jobs] 
+Arzt {m} für Allgemeinmedizin <AfA>	general practitioner <GP>	noun	[jobs] [med.] 
+Arzt {m} im Praktikum <AiP>	house physician [Am.]	noun	[jobs] 
+Arzt {m} im Praktikum	junior doctor [Br.]	noun	[hist.] [jobs] [med.] 
+Arzt {m} in der Ausbildung [im Krankenhaus]	resident doctor [Am.]	noun	[med.] 
+Arzt {m} in der Ausbildung [im Krankenhaus]	resident physician [Am.]	noun	[med.] 
+Arzt {m} in der Facharztausbildung	registrar [doctor training to be a specialist] [Br.]	noun	[educ.] [jobs] [med.] 
+Arzt {m} in der Facharztausbildung	specialist registrar <SpR>	noun	[educ.] [med.] 
+Arzt {m} in Facharztausbildung	resident [Am.]	noun	[med.] 
+Arzt {m}	medical bachelor <M.B., MB> [Br.]	noun	[jobs] 
+Arzt {m}	medical doctor <MD, M.D.>	noun	[med.] 
+Arzt {m}	physician	noun	[jobs] [med.] 
+bekommen, was man verdient (hat)	to get one's just deserts	verb	[idiom] 
+bekommend	getting	adj pres-p	
+bekommen	gotten [Am.]	past-p	
+bekommen	got  [Br.]	past-p	
+Bekommen Sie schon? [formelle Anrede]	Are you being served?		[gastr.] [TrVocab.] 
+bekommen	to acquire	verb	
+bekommen	to gain	verb	
+bekommen	to get [receive]	verb	
+bekommen	to have	verb	
+bekommen	to receive	verb	
+bekommen [eine Krankheit]	to develop [a disease]	verb	[med.] 
+Ohr {n}	earhole [Br.] [coll.]	noun	
+Ohr {n}	ear	noun	[anat.] 
+Ohr {n}	lug [N. Engl.] [Scot.]	noun	[anat.] 
