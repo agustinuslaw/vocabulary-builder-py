@@ -11,7 +11,7 @@ class TestMain(unittest.TestCase):
                 "-m",
                 "dictcc",
                 "-d",
-                "dictcc/de_en.txt",
+                "test/de_en.txt",
                 "-o",
                 "test/vocab1.txt",
                 "-i",
@@ -20,7 +20,7 @@ class TestMain(unittest.TestCase):
                 "test/exclude1.txt",
             ]
         )
-        self.assertEqual("dictcc/de_en.txt", args.dictcc_file)
+        self.assertEqual("test/de_en.txt", args.dictcc_file)
         self.assertEqual("test/vocab1.txt", args.output)
         self.assertEqual("test/exclude1.txt", args.exclude)
 
@@ -31,14 +31,14 @@ class TestMain(unittest.TestCase):
                 "-m",
                 "dictcc",
                 "-d",
-                "dictcc/de_en.txt",
+                "test/de_en.txt",
                 "-o",
                 "test/vocab1.txt",
                 "-i",
                 "test/sample1.txt",
             ]
         )
-        self.assertEqual("dictcc/de_en.txt", args.dictcc_file)
+        self.assertEqual("test/de_en.txt", args.dictcc_file)
         self.assertEqual("test/vocab1.txt", args.output)
         self.assertEqual("", args.exclude)
 
@@ -48,7 +48,7 @@ class TestMain(unittest.TestCase):
                 "-m",
                 "argos",
                 "-d",
-                "dictcc/de_en.txt",
+                "test/de_en.txt",
                 "-o",
                 "test/vocab1.txt",
                 "-i",

@@ -28,9 +28,9 @@ class AppendDict(Dictionary):
     
     def translate(self, text):
         """Translate text"""
-        results = set()
+        results: set[str] = set()
         for dictionary in self.dicts:
             result = dictionary.translate(text)
             if result is not None and result != '':
-                results.update(result.lower().split(', '))
+                results.add(result)
         return self.sep.join(results)    
