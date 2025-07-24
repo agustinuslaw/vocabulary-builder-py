@@ -1,8 +1,6 @@
 import argparse
 import os
-import sys
 from concurrent.futures import ProcessPoolExecutor
-from collections import deque
 import re
 import spacy
 from sortedcontainers import SortedSet
@@ -146,7 +144,6 @@ def parse_args(args=None):
     print(f'Output: {parsed_args.output}')
     print(f'POS: {parsed_args.part_of_speech}')
     
-    validate_exist(parsed_args.dictcc_file, 'Missing dictcc_file')
     validate_path(parsed_args.input)
     method = parsed_args.method
     if method in ("dictcc", "coalesce", "append"):
@@ -243,7 +240,7 @@ def main(args=None):
     with ProcessPoolExecutor() as executor:
         method = args.method
         
-        future_lemmas = executor.submit(read_file_extract_lemmas, args)
+        # future_lemmas = executor.submit(read_file_extract_lemmas, args)
 
         futures = []
         # ordering matters, dict_cc is added first
@@ -256,7 +253,7 @@ def main(args=None):
         
         validate(len(futures) > 0, f"Unsupported dictionary method: {method}")
         
-        lemmas = future_lemmas.result()
+        lemmas = read_file_extract_lemmas(args)
         if method == "coalesce":
             # preserve task ordering
             dictionary: Dictionary = CoalesceDict([f.result() for f in futures])
@@ -265,9 +262,10 @@ def main(args=None):
             dictionary: Dictionary = AppendDict([f.result() for f in futures])
         else:
             dictionary: Dictionary = futures[0].result()
-        
-
-    translated = SortedSet([f"{x}: {dictionary.translate(x)}" for x in lemmas])
+    
+    print("Begin translation")
+    with Stopwatch("Translation"):
+        translated = SortedSet([f"{x}: {dictionary.translate(x)}" for x in lemmas])
 
     # sectioning by initials
     initials = SortedSet(map(lambda x: f"{x[0]} ---- {x[0]} ----", translated))

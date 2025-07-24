@@ -22,7 +22,7 @@ class CoalesceDict(Dictionary):
 class AppendDict(Dictionary):
     """This dictionary uses several other dictionaries in sequence"""
 
-    def __init__(self, dicts: Iterable[Dictionary], sep: str = '; '):
+    def __init__(self, dicts: Iterable[Dictionary], sep: str = ', '):
         self.dicts = dicts
         self.sep = sep
     
@@ -32,5 +32,5 @@ class AppendDict(Dictionary):
         for dictionary in self.dicts:
             result = dictionary.translate(text)
             if result is not None and result != '':
-                results.add(result.lower())
+                results.update(result.lower().split(', '))
         return self.sep.join(results)    
